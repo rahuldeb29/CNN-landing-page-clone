@@ -1199,6 +1199,9 @@ button { font-family: inherit; cursor: pointer; }
     display: flex;
     justify-content: space-between;
   }
+  .mini-card-list li{
+    display: none;
+  }
   .page-wrapper{
     width: 100%;
     padding-inline: 12px;
