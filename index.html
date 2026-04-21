@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CNN Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="https://img.icons8.com/color/48/cnn.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="page-wrapper navbar__inner">
+        <div class="navbar__left">
+          <button class="navbar__menu-btn" aria-label="Open menu">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+          <a href="#" class="navbar__logo" aria-label="CNN Home">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/CNN.svg" alt="CNN" />
+          </a>
+          <nav aria-label="Main navigation">
+            <ul class="navbar__links">
+              <li><a href="#">US</a></li>
+              <li><a href="#">World</a></li>
+              <li><a href="#">Politics</a></li>
+              <li class="business-responsive"><a href="#">Business</a></li>
+              <li class="health-responsive"><a href="#">Health</a></li>
+              <li class="ent-responsive"><a href="#">Entertainment</a></li>
+              <li><a href="#">Style</a></li>
+              <li class="travel-responsive"><a href="#">Travel</a></li>
+              <li class="sports-responsive"><a href="#">Sports</a></li>
+              <li><a href="#">Science</a></li>
+              <li class="more-responsive"><a href="#">More</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="navbar__right">
+          <a href="#" class="navbar__action">
+            <span class="navbar__live-dot" aria-hidden="true"></span>Watch
+          </a>
+          <a href="#" class="navbar__action">
+            <ion-icon name="headset-outline" aria-hidden="true"></ion-icon>Listen
+          </a>
+          <button class="navbar__icon-btn" aria-label="Search">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+          <button class="navbar__signin-btn">Sign In</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- QUICK LINKS -->
+      <section class="quick-links" aria-label="Quick links">
+        <div class="page-wrapper quick-links__inner">
+          <span>North Korea's latest tests</span>
+          <span class="separator" aria-hidden="true">|</span>
+          <span>Hungary elections</span>
+          <span class="separator" aria-hidden="true">|</span>
+          <span>Major flood threat in Hawaii</span>
+          <span class="separator lastThree" aria-hidden="true">|</span>
+          <span class="lastThree";>Prehistoric gambling</span>
+          <span class="separator lastThree" aria-hidden="true">|</span>
+          <span class="lastThree">Piece of Eiffel Tower up for grabs</span>
+          <span class="separator lastThree" aria-hidden="true">|</span>
+          <span class="lastThree">Benefits of a plant-rich diet</span>
+        </div>
+      </section>
+
+      <!-- HERO SECTION -->
+      <section class="hero" aria-label="Top stories">
+        <div class="page-wrapper hero__grid">
+
+          <!-- LEFT COLUMN -->
+          <aside class="hero__col hero__col--left">
+
+            <article class="news-card">
+              <img src="https://media.cnn.com/api/v1/images/stellar/prod/20260413-trump-pope.jpg?c=original&q=w_860,c_fill/f_avif" alt="Trump and Pope Leo" />
+              <h2>Trump criticizes Pope Leo's stance on Iran war, says he's 'not a fan' of Catholic leader</h2>
+              <hr />
+              <p><strong>Analysis:</strong> 'A man of peace.' Pope Leo embarks on marathon visit to Africa</p>
+            </article>
+
+            <div class="news-card--animated news-card--animated-hungary" aria-label="Hungary election slideshow">
+              <span class="badge badge--analysis">ANALYSIS</span>
+            </div>
+
+            <h2 class="section-headline">In Hungary, Viktor Orbán's loss shows how populism can run out of road</h2>
+            <hr class="section-divider" />
+
+            <ul class="mini-card-list">
+              <li class="mini-card">
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2270597077.jpg?c=original&q=w_1202,c_fill/f_avif" alt="Orbán concedes" />
+                <h4><span class="label label--live">Live Updates:</span> Trump ally Orbán concedes landmark defeat after 16 years in power</h4>
+              </li>
+              <li class="mini-card">
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2271036489.jpg?c=original&q=w_1316,c_fill/f_webp" alt="Budapest streets" />
+                <h4>Hungarians take to the streets in Budapest <ion-icon name="play-circle-outline" aria-hidden="true"></ion-icon> <strong>1:21</strong></h4>
+              </li>
+              <li class="mini-card">
+                <img src="https://th-i.thgim.com/public/incoming/qqo8n8/article70856037.ece/alternates/LANDSCAPE_1200/2026-04-12T213944Z_2057846620_RC2XNKA554NO_RTRMADP_3_HUNGARY-ELECTION.JPG" alt="Péter Magyar" />
+                <h4>Who is Péter Magyar, the candidate who ousted Orbán?</h4>
+              </li>
+            </ul>
+          </aside>
+
+          <!-- CENTRE COLUMN -->
+          <article class="hero__col hero__col--main">
+            <h1 class="hero__main-headline">
+              <span>Why Trump has threatened to</span><br />
+              blockade an already blockaded strait
+            </h1>
+
+            <div class="hero__main-image-wrap">
+              <img src="https://media.assettype.com/tribune%2F2026-04-12%2Fsficrrgj%2F140519saudipipeline.jpg" alt="Saudi oil pipeline" />
+              <div class="hero__main-overlay" aria-hidden="true"></div>
+              <div class="hero__main-caption">
+                <span class="centre-analysis">LIVE UPDATES</span>
+                <p class="hero__overlay-text">Trump is risking sending oil and gas prices even higher to maximize leverage over Iran</p>
+              </div>
+            </div>
+
+            <h4>
+              <span class="label label--live">Live Updates:</span>
+              Trump says temporary US-Iran ceasefire is 'holding well'
+            </h4>
+            <hr />
+            <span class="text-link">Trump: Iran will give us 'Everything we want' <ion-icon name="play-circle-outline" aria-hidden="true"></ion-icon> <strong>1:01</strong></span>
+
+            <ul class="dual-card-list">
+              <li class="dual-card">
+                <div class="dual-card__image-wrap">
+                  <img src="https://media.cnn.com/api/v1/images/stellar/prod/ap26102829155794.jpg?c=original&q=w_1202,c_fill/f_avif" alt="Trump blockade" />
+                  <span class="badge badge--analysis badge--overlay">ANALYSIS</span>
+                </div>
+                <h4>Trump's blockade plan shows the 'war' isn't going as he promised</h4>
+              </li>
+              <li class="dual-card">
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2270992283.jpg?c=original&q=w_860,c_fill/f_avif" alt="Oil prices" />
+                <h4>Oil prices rise after Trump threatens to block passage through strait</h4>
+              </li>
+            </ul>
+          </article>
+
+          <!-- RIGHT COLUMN -->
+          <aside class="hero__col hero__col--right">
+
+            <div class="news-card--animated news-card--animated-masters" aria-label="Masters tournament slideshow"></div>
+
+            <h2 class="section-headline">Rory McIlroy makes history with a second-straight Masters championship</h2>
+            <hr class="section-divider" />
+            <p class="section-subtext"><strong>Analysis:</strong> Guts, grimaces and glory: Augusta National got the full McIlroy experience on Sunday</p>
+
+            <article class="news-card">
+              <img src="https://static.toiimg.com/thumb/msid-123491482,width-1280,height-720,resizemode-4/123491482.jpg" alt="Daniel Dae Kim and Corey Lee" />
+              <h2>'That's savage': Daniel Dae Kim and Corey Lee try Korean raw crab dish</h2>
+              <hr class="section-divider" />
+            </article>
+
+            <article class="news-card">
+              <img src="https://images.news18.com/ibnlive/uploads/2026/04/Rajat-Patidar-2026-04-61abd78d9bcca6e45ba4726f97821efd-1200x675.jpg?impolicy=website&width=400&height=225" alt="Rajat Patidar" />
+              <h2>Patidar led RCB thrashes Mumbai Indians by 18 runs</h2>
+            </article>
+          </aside>
+
+        </div>
+      </section>
+
+      <div class="page-divider"></div>
+
+      <!-- SECOND SECTION -->
+      <section class="second-section" aria-label="More stories">
+        <div class="page-wrapper second-section__grid">
+
+          <!-- LEFT COLUMN -->
+          <aside class="second-section__col second-section__col--left">
+            <div class="vertical">
+              <div class="vl"></div>
+              <h2 class="section-label">MORE TOP STORIES</h2>
+            </div>
+            <article class="news-card">
+              <img src="https://media.cnn.com/api/v1/images/stellar/prod/2026-03-04t055023z-722441638-rc2fxjasypad-rtrmadp-3-philippines-southkorea.JPG?c=original&q=w_860,c_fill/f_avif" alt="South Korea president" />
+              <h2>South Korea's president draws Israeli anger by using old video to make point about human suffering</h2>
+              <hr />
+            </article>
+
+            <ul class="text-link-list">
+              <li>Eric Swalwell ends bid for California governor after sexual misconduct allegations</li>
+              <li>After dropping gubernatorial bid, Swalwell still faces calls to resign or face expulsion from US House</li>
+              <li>This viral 'snow' spot in India is actually a waste site <ion-icon name="play-circle-outline" aria-hidden="true"></ion-icon> <strong>1:41</strong></li>
+              <li>Lynette Hooker disappeared in the Bahamas over a week ago. Here's a timeline of the key developments</li>
+            </ul>
+          </aside>
+
+          <!-- CENTRE COLUMN -->
+          <article class="second-section__col second-section__col--main">
+            <div class="vertical">
+              <div class="vl"></div>
+              <h2 class="section-label">CELEBRITIES & ENTERTAINMENT</h2>
+            </div>
+            <div class="second-main">
+              <img src="https://media.cnn.com/api/v1/images/stellar/prod/20260415-rose-perry.jpg?c=original&q=w_860,c_fill/f_avif" alt="Ruby Rose and Katy Perry" />
+              <h2>Australians authorities launch investigation after Ruby Rose accuses Katy Perry of sexual assault</h2>
+            </div>
+
+            <ul class="dual-card-list dual-card-list--stacked">
+              <li class="dual-card dual-card--row">
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/pic-3-20260408182519504.jpg?c=16x9&q=w_1544,c_fill/f_avif" alt="Aaron Hernandez case" />
+                <h4>As Aaron Hernandez's murder case gripped greater Boston, a nurse quietly vanished. Her family is still seeking answers</h4>
+              </li>
+              <li class="dual-card dual-card--row">
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/01-9493450.jpg?c=16x9&q=w_1544,c_fill/f_avif" alt="USS Gerald Ford" />
+                <h4>The record-breaking trip of the USS Gerald Ford, the aircraft carrier at the center of Trump's military ambitions</h4>
+              </li>
+            </ul>
+          </article>
+
+          <!-- RIGHT COLUMN -->
+          <aside class="second-section__col second-section__col--right">
+            <div class="vertical">
+              <div class="vl"></div>
+              <h2 class="section-label">ART & STYLE</h2>
+            </div>
+            <article class="news-card">
+              <img src="https://i.dailymail.co.uk/1s/2024/12/28/09/93538021-0-image-a-11_1735379338790.jpg" alt="Eva Longoria" />
+              <h2>Eva Longoria learns the 3 best tips for vintage shopping</h2>
+              <hr />
+            </article>
+            <article class="news-card">
+              <img src="https://media.cnn.com/api/v1/images/stellar/prod/220530154825-01-a-classic-french-dishes-boeuf-bourguignon-restricted.jpg?c=original&q=w_1316,c_fill/f_webp" alt="French dishes" />
+              <h2>20 classic French dishes everyone needs to try</h2>
+            </article>
+          </aside>
+
+        </div>
+      </section>
+
+    </main>
+
+    <div class="page-divider"></div>
+
+    <!-- THIRD SECTION -->
+    <section class="third-section">
+      <div class="page-wrapper third-section__grid">
+        <article class="third-section__col third-section__col--main">
+          <div class="vertical">
+            <div class="vl"></div>
+            <h2 class="section-label">TRAVEL & BEYOND</h2>
+          </div>
+          <div class="third-main-image-wrap">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/img-8761.jpg?c=original&q=w_1316,c_fill/f_webp" alt="Streets of Seoul" />
+            <div class="hero__main-overlay" aria-hidden="true"></div>
+            <div class="third__main-caption">
+              <span class="centre-analysis">LIVE UPDATES</span>
+              <p class="third__overlay-text">Hunting for Treasure on the streets of Seoul</p>
+            </div>
+          </div>
+        </article>
+
+        <aside class="third-section__col third-section__col--side">
+          <article class="news-card">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2269936762.jpg?c=16x9&q=w_1544,c_fill/f_avif" alt="Italy citizenship ruling" />
+            <h2>Italy ruling that stripped millions of their right to citizenship is scrutinized by its supreme court</h2>
+            <hr />
+          </article>
+          <article class="news-card">
+            <img src="https://media.cntraveller.com/photos/629f81705c7df45a0daefff9/16:9/w_2560%2Cc_limit/103481-56.jpg" alt="Canberra Australia" />
+            <h2>Aussies will tell you not to visit Canberra – here's why you should visit anyway</h2>
+          </article>
+        </aside>
+      </div>
+    </section>
+
+    <!-- TWO CARDS BELOW -->
+    <section class="two-cards-below">
+      <div class="page-wrapper">
+        <aside class="two-card-news-card">
+          <div class="left-below">
+            <article class="news-card">
+              <div class="vl"><span class="vl-label">US POLITICS</span></div>
+              <img src="https://media.cnn.com/api/v1/images/stellar/prod/20260415-alito-thomas.jpg?c=original&q=w_860,c_fill/f_avif" alt="Alito and Thomas" />
+              <h2>Trump leans in on a major 2026 issue: possibly replacing Justices Alito and Thomas</h2>
+              <hr />
+            </article>
+            <ul class="mini-card-list">
+              <li class="mini-card">
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/2026-04-01t141012z-1581774200-rc2egka88qj5-rtrmadp-3-iran-crisis.jpg?c=original&q=w_1202,c_fill/f_avif" alt="Iran war Republicans" />
+                <h4>Iran war has some Republicans worried their chances of keeping the House are slipping away</h4>
+              </li>
+              <li class="mini-card">
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/mejiahathaway.jpg?c=original&q=w_860,c_fill/f_avif" alt="NJ special election" />
+                <h4>A New Jersey special election could soon narrow the House GOP's razor-thin majority</h4>
+              </li>
+            </ul>
+          </div>
+          <div class="left-below2">
+            <article class="news-card">
+              <div class="vl"><span class="vl-label">CLIMATE</span></div>
+              <img src="https://media.cnn.com/api/v1/images/stellar/prod/severe-storm-centralks-050923-promo-wxchasing.png?c=16x9&q=h_253,w_450,c_fill/c_thumb,g_auto,w_450,h_253" alt="Severe storms" />
+              <h2>Severe thunderstorms rage on in central US with large hail. More tornadoes are possible</h2>
+              <hr />
+            </article>
+            <ul class="mini-card-list">
+              <li class="mini-card">
+                <img src="https://s.yimg.com/ny/api/res/1.2/i4lq8wqAGnEBmMdMLYbZ4g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjg7Y2Y9d2VicA--/https://media.zenfs.com/en/mysa_hearst_708/4da2bf8fc695d9ff2e50824454c81c26" alt="Great Lakes flooding" />
+                <h4>Flooding hits Great Lakes as storms sweep region</h4>
+              </li>
+              <li class="mini-card">
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2270516956.jpg?c=original&q=w_1202,c_fill/f_avif" alt="South African marathon" />
+                <h4>Men caught competing in women's category of prestigious South African marathon <ion-icon name="play-circle-outline" aria-hidden="true"></ion-icon> <strong>1:21</strong></h4>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- THREE CARDS - ROW 1 -->
+    <section class="three-cards">
+      <div class="page-wrapper">
+        <div class="container-div">
+          <article class="news-card">
+            <div class="vl"><span class="vl-label">BUSINESS</span></div>
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2267089029.jpg?c=original&q=w_860,c_fill/f_avif" alt="TV station merger" />
+            <h2>Federal judge blocks politically fraught TV station merger</h2>
+          </article>
+          <article class="news-card">
+            <div class="vl"><span class="vl-label">CRIME & COURTS</span></div>
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2250706117.jpg?c=original&q=w_860,c_fill/f_avif" alt="Tyler Robinson case" />
+            <h2>Attorneys for Tyler Robinson, the man charged with Charlie Kirk's killing, make case to boot cameras from courtroom</h2>
+          </article>
+          <article class="news-card">
+            <div class="vl"><span class="vl-label">HEALTH & WELLNESS</span></div>
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/weed8-cannabisgeneric2.jpg?c=16x9&q=w_1280,c_fill" alt="Cannabis" />
+            <h2>Cannabis and perimenopause: Can it help?</h2>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- THREE CARDS - ROW 2 -->
+    <section class="three-cards">
+      <div class="page-wrapper">
+        <div class="container-div">
+          <article class="news-card">
+            <div class="vl"><span class="vl-label">K-EVERYTHING</span></div>
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/market39.jpg?c=16x9&q=w_2000,c_fill/f_avif" alt="Seoul streets" />
+            <h2>Hunting for treasure on the streets of Seoul</h2>
+          </article>
+          <article class="news-card">
+            <div class="vl"><span class="vl-label">CLIMATE & EXTREME WEATHER</span></div>
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/new-atlantic-cover-1024x576.jpg?c=original&q=w_1202,c_fill/f_avif" alt="Atlantic currents" />
+            <h2>A vital system of Atlantic Ocean currents is weakening and closer to collapse than thought, new studies find</h2>
+          </article>
+          <article class="news-card">
+            <div class="vl"><span class="vl-label">ARTIFICIAL INTELLIGENCE</span></div>
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/s260734718.jpg?c=original&q=w_1202,c_fill/f_avif" alt="Sam Altman" />
+            <h2>The attack on Sam Altman exposed a dark underbelly of the anti-AI movement</h2>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCROLL SECTION -->
+    <section class="scroll-section">
+      <div class="page-wrapper">
+        <div class="scroll-section__header">
+          <div class="vl">
+            <h2 class="scroll-section__title">CNN Shorts</h2>
+          </div>
+          <div class="scroll-section__controls">
+            <button class="scroll-btn"><span class="scroll-btn-dot">❮</span></button>
+            <button class="scroll-btn-right"><span class="scroll-btn-dot">❯</span></button>
+          </div>
+        </div>
+
+        <div class="container-scroll">
+          <div class="scroll-item">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/118926-holmestrumpiranthumb.jpg?c=9x16" alt="Trump Iran" />
+            <div class="hero__main-overlay" aria-hidden="true"></div>
+            <div class="overlay-text">Trump says 'Iran has agreed to everything</div>
+          </div>
+          <div class="scroll-item">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/118925-lebanondroneceasefire-vrtc-thumb-clean.png?c=9x16" alt="Lebanon drone" />
+            <div class="hero__main-overlay" aria-hidden="true"></div>
+            <div class="overlay-text">Iran says Israel carried out deadly strikes after...</div>
+          </div>
+          <div class="scroll-item">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/getty-20260417202759187.jpg?c=9x16" alt="Iran Supreme leader" />
+            <div class="hero__main-overlay" aria-hidden="true"></div>
+            <div class="overlay-text">Still no sight of Iran's new Supreme leader.</div>
+          </div>
+          <div class="scroll-item">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/118914-motherless-thumb-clean.png?c=9x16" alt="Petition" />
+            <div class="hero__main-overlay" aria-hidden="true"></div>
+            <div class="overlay-text">Petition to deplatform porn website at center of CNN..</div>
+          </div>
+          <div class="scroll-item">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/118930-weatherroundup-thumb-clean.jpg?c=9x16" alt="Tornadoes" />
+            <div class="hero__main-overlay" aria-hidden="true"></div>
+            <div class="overlay-text">Tornadoes tear through central US</div>
+          </div>
+          <div class="scroll-item">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/118928-iran-rallyclean-00-00-44-03-still001.jpg?c=9x16" alt="Iran protest" />
+            <div class="hero__main-overlay" aria-hidden="true"></div>
+            <div class="overlay-text">Women and girls attend defiant protest in Iran again...</div>
+          </div>
+          <div class="scroll-item">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/260417-iltornado-vrtc-thumb-clean.png?c=9x16" alt="Illinois tornado" />
+            <div class="hero__main-overlay" aria-hidden="true"></div>
+            <div class="overlay-text">Minnesota tornado captured on traffic cam</div>
+          </div>
+          <div class="scroll-item">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/118924-mntornadocam-vert-thumb-cln.jpg?c=9x16" alt="Storm chaser" />
+            <div class="hero__main-overlay" aria-hidden="true"></div>
+            <div class="overlay-text">Terrifying moment storm chaser captures tornado in..</div>
+          </div>
+          <div class="scroll-item">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/118918-catholicfuture-africa-thumb.jpg?c=9x16" alt="Africa Catholic" />
+            <div class="hero__main-overlay" aria-hidden="true"></div>
+            <div class="overlay-text">Why Africa is crucial to the Catholic Church</div>
+          </div>
+          <div class="scroll-item">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/118886-thaiwaterfightdeaths-vthumb-clean0.jpg?c=9x16" alt="Water fight" />
+            <div class="hero__main-overlay" aria-hidden="true"></div>
+            <div class="overlay-text">Revelers gather for 'world's largest water fight'</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AFRICAN VOICES -->
+    <section class="africanVoices">
+      <div class="page-wrapper">
+        <div class="vertical">
+          <div class="vl"><span class="vl-label">AFRICAN VOICES</span></div>
+        </div>
+        <div class="africanTwo">
+          <article class="news-card">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/joeboyarticle.jpg?c=original&q=w_860,c_fill/f_avif" alt="King Promise" />
+            <span class="africanSpan">Why Ghanaian singer King Promise and other African artists don't want to be boxed into Afrobeats</span>
+          </article>
+          <article class="news-card">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1890719281.jpg?c=16x9&q=h_144,w_256,c_fill" alt="Joeboy" />
+            <span class="africanSpan">How a viral Ed Sheeran cover led Joeboy to Mr Eazi and global success</span>
+          </article>
+          <article class="news-card">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2243693101.jpg?c=original&q=w_860,c_fill/f_avif" alt="Nomzamo Mbatha" />
+            <span class="africanSpan">Nomzamo Mbatha: From South Africa to the global stage</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ZONE OUTER / MORE FROM CNN -->
+    <div class="zone-outer">
+      <div class="page-wrapper zone-outer__inner">
+        <div class="outer-footer">
+          <h2>More from CNN</h2>
+          <div class="below-cnn-footer">
+            <div class="hero__main-image-wrap">
+              <img src="https://variety.com/wp-content/uploads/2016/07/narcos-mobile-game.png?w=1000&h=667&crop=1" alt="Narcos" />
+              <div class="hero__main-overlay" aria-hidden="true"></div>
+              <div class="hero__main-caption">
+                <span class="centre-analysis centre-analysis--light">INTERACTIVE</span>
+                <p class="hero__overlay-text">Exposing a global 'rape academy': In shocking group chats, men encourage one another to drug and assault their wives</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="listOfFooter">
+          <ul>
+            <li>
+              <img src="https://media.cnn.com/api/v1/images/stellar/prod/62-years-old-participant-fig-2b.jpg?c=original&q=w_1202,c_fill/f_avif" alt="Ultraprocessed foods" />
+              <span>Ultraprocessed foods are turning human thighs into well-marbled steaks</span>
+            </li>
+            <li>
+              <img src="https://media.cnn.com/api/v1/images/stellar/prod/01-9493450.jpg?c=16x9&q=w_1544,c_fill/f_avif" alt="USS Gerald Ford" />
+              <span>The record-breaking trip of the USS Gerald Ford, the aircraft carrier at the center of Trump's military ambitions</span>
+            </li>
+            <li>
+              <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2252173480.jpg?c=original&q=w_860,c_fill/f_avif" alt="Antisemitic violence" />
+              <span>Antisemitic violence worldwide in 2025 killed highest number of Jews in 30 years, study finds</span>
+            </li>
+            <li>
+              <img src="https://media.cnn.com/api/v1/images/stellar/prod/img-0172-crop.jpg?c=original&q=w_860,c_fill/f_webp" alt="Cloud jaguar" />
+              <span>First 'cloud jaguar' spotted in 10 years sparks hope in Honduras</span>
+            </li>
+            <li>
+              <img src="https://media.cnn.com/api/v1/images/stellar/prod/ap20106690900844a.JPG?c=original&q=w_1202,c_fill/f_avif" alt="Data centers" />
+              <span>Data centers are spreading around the US. Now, data-center bans are, too</span>
+            </li>
+            <li>
+              <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2269975507.jpg?c=original&q=w_860,c_fill/f_avif" alt="White House paint" />
+              <span>Trump wants to cover a White House office building with 'magic paint'. Experts advice against it</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="site-footer__search">
+        <input type="text" placeholder="Search CNN..." aria-label="Search CNN" />
+        <button type="submit" aria-label="Submit search">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+      <nav class="site-footer__columns" aria-label="Footer navigation">
+        <div class="footer-col">
+          <h3>World</h3>
+          <ul>
+            <li><a href="#">Africa</a></li>
+            <li><a href="#">Americas</a></li>
+            <li><a href="#">Asia</a></li>
+            <li><a href="#">Australia</a></li>
+            <li><a href="#">China</a></li>
+            <li><a href="#">Europe</a></li>
+            <li><a href="#">India</a></li>
+            <li><a href="#">Middle East</a></li>
+            <li><a href="#">United Kingdom</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>US Politics</h3>
+          <ul>
+            <li><a href="#">Trump</a></li>
+            <li><a href="#">Facts First</a></li>
+            <li><a href="#">CNN Polls</a></li>
+            <li><a href="#">Elections 2026</a></li>
+            <li><a href="#">Redistricting Tracker</a></li>
+            <li><a href="#">Epstein Files</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Business</h3>
+          <ul>
+            <li><a href="#">Tech</a></li>
+            <li><a href="#">Media</a></li>
+            <li><a href="#">Calculators</a></li>
+            <li><a href="#">Videos</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Markets</h3>
+          <ul>
+            <li><a href="#">Pre-markets</a></li>
+            <li><a href="#">After-Hours</a></li>
+            <li><a href="#">Fear &amp; Greed</a></li>
+            <li><a href="#">Investing</a></li>
+            <li><a href="#">Markets Now</a></li>
+            <li><a href="#">Nightcap</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Health</h3>
+          <ul>
+            <li><a href="#">Life, But Better</a></li>
+            <li><a href="#">Fitness</a></li>
+            <li><a href="#">Food</a></li>
+            <li><a href="#">Sleep</a></li>
+            <li><a href="#">Mindfulness</a></li>
+            <li><a href="#">Relationships</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Entertainment</h3>
+          <ul>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Television</a></li>
+            <li><a href="#">Celebrity</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Tech</h3>
+          <ul>
+            <li><a href="#">Innovate</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Style</h3>
+          <ul>
+            <li><a href="#">Arts</a></li>
+            <li><a href="#">Design</a></li>
+            <li><a href="#">Fashion</a></li>
+            <li><a href="#">Architecture</a></li>
+            <li><a href="#">Luxury</a></li>
+            <li><a href="#">Beauty</a></li>
+            <li><a href="#">Video</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Travel</h3>
+          <ul>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Food &amp; Drink</a></li>
+            <li><a href="#">Stay</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Videos</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Sports</h3>
+          <ul>
+            <li><a href="#">Football</a></li>
+            <li><a href="#">Cricket</a></li>
+            <li><a href="#">Tennis</a></li>
+            <li><a href="#">Olympics</a></li>
+            <li><a href="#">US Sports</a></li>
+            <li><a href="#">Motorsport</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Science</h3>
+          <ul>
+            <li><a href="#">Space</a></li>
+            <li><a href="#">Life</a></li>
+            <li><a href="#">Unearthed</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Climate</h3>
+          <ul>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Weather</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Weather</h3>
+          <ul>
+            <li><a href="#">Video</a></li>
+            <li><a href="#">Climate</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Ukraine-Russia War</h3>
+        </div>
+        <div class="footer-col">
+          <h3>Israel-Hamas War</h3>
+        </div>
+        <div class="footer-col">
+          <h3>Features</h3>
+          <ul>
+            <li><a href="#">As Equals</a></li>
+            <li><a href="#">Call to Earth</a></li>
+            <li><a href="#">Freedom Project</a></li>
+            <li><a href="#">Impact Your World</a></li>
+            <li><a href="#">Inside Africa</a></li>
+            <li><a href="#">CNN Heroes</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Watch</h3>
+          <ul>
+            <li><a href="#">Featured</a></li>
+            <li><a href="#">CNN Headlines</a></li>
+            <li><a href="#">Shows A-Z</a></li>
+            <li><a href="#">CNN 10</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Listen</h3>
+          <ul>
+            <li><a href="#">All There Is with Anderson Cooper</a></li>
+            <li><a href="#">Chasing Life with Dr. Sanjay Gupta</a></li>
+            <li><a href="#">The Assignment with Audie Cornish</a></li>
+            <li><a href="#">Terms of Service with Clare Duffy</a></li>
+            <li><a href="#">CNN 5 Things</a></li>
+            <li><a href="#">All CNN Podcasts</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Games</h3>
+          <ul>
+            <li><a href="#">Daily Crossword</a></li>
+            <li><a href="#">Jumble Crossword</a></li>
+            <li><a href="#">Photo Shuffle</a></li>
+            <li><a href="#">Sudoblock</a></li>
+            <li><a href="#">Sudoku</a></li>
+            <li><a href="#">5 Things Quiz</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>About CNN</h3>
+          <ul>
+            <li><a href="#">Photos</a></li>
+            <li><a href="#">Investigations</a></li>
+            <li><a href="#">CNN Profiles</a></li>
+            <li><a href="#">CNN Leadership</a></li>
+            <li><a href="#">CNN Newsletters</a></li>
+            <li><a href="#">Work for CNN</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="divider-footer"></div>
+
+      <div class="footer-end">
+        <nav class="footer-navbar">
+          <a href="#">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/CNN.svg" alt="CNN" />
+          </a>
+          <div class="footer-navbar-right">
+            <a href="#" class="navbar__action">Watch</a>
+            <a href="#" class="navbar__action">Listen</a>
+            <a href="#" class="navbar__action">Live TV</a>
+            <span>&#124;</span>
+            <button class="subscribe">Subscribe</button>
+            <button class="navbar-footer-btn">Sign In</button>
+          </div>
+        </nav>
+
+        <div class="social-links">
+          <span>FOLLOW CNN</span>
+          <span class="social-icons">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="logo-tiktok"></ion-icon>
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </span>
+          <span>&#124;</span>
+          <span>DOWNLOAD THE CNN APP</span>
+          <img src="https://static.vecteezy.com/system/resources/previews/012/871/364/non_2x/google-play-store-download-button-in-white-colors-download-on-the-google-play-store-free-png.png" class="app-badge" alt="Get it on Google Play" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/1280px-Download_on_the_App_Store_Badge.svg.png" class="app-badge app-badge--apple" alt="Download on the App Store" />
+        </div>
+
+        <div class="divider-footer"></div>
+
+        <div class="terms">
+          <ul>
+            <li><a href="#" class="footer-link">Terms of Use</a></li>
+            <li><a href="#" class="footer-link">Privacy Policy</a></li>
+            <li><a href="#" class="footer-link">Manage Cookies</a></li>
+            <li><a href="#" class="footer-link">Ad Choices</a></li>
+            <li><a href="#" class="footer-link">Accessibility & CC</a></li>
+            <li><a href="#" class="footer-link">About</a></li>
+            <li><a href="#" class="footer-link">Newsletters</a></li>
+            <li><a href="#" class="footer-link">Transcripts</a></li>
+          </ul>
+          <p class="footer-copyright-text">
+            © 2026 Cable News Network. A Warner Bros. Discovery Company. All Rights Reserved.<br />
+            CNN Sans ™ & © 2016 Cable News Network.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
