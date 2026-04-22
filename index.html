@@ -18,14 +18,16 @@
     <header class="navbar">
       <div class="page-wrapper navbar__inner">
         <div class="navbar__left">
-          <button class="navbar__menu-btn" aria-label="Open menu">
-            <ion-icon name="menu-outline"></ion-icon>
+          <button class="navbar__menu-btn" aria-label="Open menu" id="menu-btn">
+
+            <ion-icon name="menu-outline" onclick="clickMenu()" id="menu-icon"></ion-icon>
+            <ion-icon name="close-outline" class="cross" id="cross-icon" onclick="closeIcon()"></ion-icon>
           </button>
           <a href="#" class="navbar__logo" aria-label="CNN Home">
             <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/CNN.svg" alt="CNN" />
           </a>
           <nav aria-label="Main navigation">
-            <ul class="navbar__links">
+            <ul class="navbar__links" id="navbar-links">
               <li><a href="#">US</a></li>
               <li><a href="#">World</a></li>
               <li><a href="#">Politics</a></li>
@@ -756,6 +758,9 @@
         </div>
       </div>
     </footer>
+
+
+    <script src="index.js"></script>
 
   </body>
 </html>

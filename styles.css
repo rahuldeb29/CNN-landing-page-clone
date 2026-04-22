@@ -98,9 +98,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 
-/* ============================================
-   4. NAVBAR
-   ============================================ */
+/*4. NAVBAR*/
 .navbar {
   position: sticky;
   top: 0;
@@ -786,7 +784,9 @@ button { font-family: inherit; cursor: pointer; }
   scrollbar-width: none;
 }
 
-.container-scroll::-webkit-scrollbar { display: none; }
+.container-scroll::-webkit-scrollbar { 
+  display: none;
+ }
 
 .scroll-item {
   flex: 0 0 200px;
@@ -804,7 +804,9 @@ button { font-family: inherit; cursor: pointer; }
   object-fit: cover;
 }
 
-.scroll-item:hover { cursor: pointer; opacity: 0.7; }
+.scroll-item:hover { 
+  cursor: pointer; opacity: 0.7;
+ }
 
 .scroll-item .hero__main-overlay {
   height: 40%;
@@ -1098,11 +1100,38 @@ button { font-family: inherit; cursor: pointer; }
   color: var(--color-text-muted);
   padding-bottom: 20px;
 }
-
+.navbar__menu-btn{
+  display: none;
+}
+.cross{
+  display: none;
+  z-index: 2000;
+}
+@media(min-width:980px){
+  .navbar__links{
+    display: flex;
+  }
+}
 @media (max-width:980px){
   .navbar__links{
-    display: none;
+    flex-direction: column;
+    position: absolute;
+    left: -1000px;
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 180px;
+    border-bottom: 1px solid black;
+    
   }
+  .navbar__menu-btn{
+  display: inline-block;
+}
+
+  #cross-icon{
+  display: none;
+  z-index: 2000;
+}
   .navbar__action{
     display: none;
   }
